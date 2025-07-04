@@ -4,3 +4,70 @@
   box-sizing: border-box;
   background-color: #333;
 }
+
+body {
+  margin: 0;
+  font-family: 'Pretendard', sans-serif;
+  background-color: #F4F1ED;
+  color: #3D3A36;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 50px;
+}
+
+.timer-container {
+  background-color: #FFFFFF;
+  border-radius: 16px;
+  padding: 2rem 2.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.timer-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #3D3A36;
+}
+
+.timer-wrap {
+  display: flex;
+  gap: 0.8rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.timer-time {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #7A746B;
+}
+
+button {
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  color: #3D3A36;
+  background-color: #D6CFC6;
+}
+
+button:hover {
+  background-color: #C4BDB4;
+}
+
+.on-button {
+  background-color: #D6CFC6;
+}
+
+.off-button {
+  background-color: #A59383;
+  color: #fff;
+}
